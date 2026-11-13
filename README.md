@@ -3,26 +3,47 @@
 I work on low-level systems, reverse engineering, graphics, and machine learning.  
 我主要开发底层系统、逆向工程、图形和机器学习相关项目。
 
-## 📚 Projects
+## 📚 Projects / 项目
 
-### Reverse Engineering / 逆向工程
+### [glslPerftEngine](https://github.com/Guacantaloupe/glslPerftEngine)
 
-- **[paper](https://github.com/Guacantaloupe/paper)** — Decompiler / 反编译器
-- **[guadbg](https://github.com/Guacantaloupe/guadbg)** — Debugger / 调试器
+An OpenGL compute-shader-based chess Perft program that counts legal move sequences on the GPU. It is not a complete chess AI. During development, I reported **NVIDIA GLSL compiler bug 6630275**, which NVIDIA confirmed and fixed.
 
-### Systems / 底层系统
+使用 OpenGL 计算着色器，在 GPU 上统计国际象棋合法走法序列的 Perft 程序。它不是完整的国际象棋 AI。开发过程中，我报告了 NVIDIA GLSL 编译器错误 **6630275**，NVIDIA 已确认并修复。
 
-<a href="https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg"><img src="./assets/uefi.svg" alt="UEFI logo" height="65"></a>
-<a href="https://www.nasm.us/"><img src="./assets/nasm.png" alt="NASM logo" height="65"></a>
+### [paper](https://github.com/Guacantaloupe/paper)
 
-- **[ReviewUefiVmxAppPkg](https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg)** — UEFI and Intel VMX virtualization / UEFI 与 Intel VMX 虚拟化
-- **[NASM](https://www.nasm.us/)** — x86 / x86-64 assembler / 汇编器（外部项目 / External project）
+A Windows executable static-analysis tool with disassembly, function analysis, control-flow graphs, and cross-references. It also provides MCP tools for AI clients.
 
-### Graphics / 图形
+用于 Windows 可执行文件静态分析的程序。支持反汇编、函数分析、控制流图和交叉引用，也提供供 AI 客户端通过 MCP 调用的工具。
 
-- **[imgui-overlay](https://github.com/Guacantaloupe/imgui-overlay)** — ImGui overlay / 图形叠加层
-- **[glslPerftEngine](https://github.com/Guacantaloupe/glslPerftEngine)** — GLSL performance testing; NVIDIA bug **6630275** / GLSL 性能测试；NVIDIA 问题编号 **6630275**
+### [imgui-overlay](https://github.com/Guacantaloupe/imgui-overlay)
 
-## 🛠️ Technologies / 技术
+A Dear ImGui-based overlay project with graphics API hooking code for DirectX 11, DirectX 12, OpenGL, and Vulkan.
 
-C · C++ · Python · Assembly · GLSL · UEFI
+基于 Dear ImGui 的覆盖层项目，包含 DirectX 11、DirectX 12、OpenGL 和 Vulkan 的图形 API Hook 代码。
+
+### [guadbg](https://github.com/Guacantaloupe/guadbg)
+
+An experimental Windows debugger based on vectored exception handling (VEH), with breakpoints, memory inspection, an ImGui interface, and MCP tools.
+
+基于向量化异常处理（VEH）的实验性 Windows 调试器，支持断点、内存查看、ImGui 界面和 MCP 工具。
+
+### [Reviewcentrifuge](https://github.com/Guacantaloupe/Reviewcentrifuge)
+
+Selected core code from a closed-source project, shared for architecture and code-quality review. This repository is not the complete project and cannot be built on its own.
+
+一个闭源项目的部分核心代码，用于架构和代码质量评审。仓库不是完整项目，无法直接构建。
+
+### [ReviewUefiVmxAppPkg](https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg)
+
+Selected C source code from a UEFI and Intel VMX project for code review, covering VMX initialization, memory mapping, nested virtualization, and Windows boot loading. This repository is incomplete and cannot be built on its own.
+
+用于代码评审的 UEFI 和 Intel VMX 项目部分 C 源码，涉及 VMX 初始化、内存映射、嵌套虚拟化和 Windows 启动加载。仓库不是完整项目，无法直接构建。
+
+### Related technologies / 相关技术
+
+<a href="https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg"><img src="./uefi.svg" alt="UEFI logo" height="65"></a>
+<a href="https://www.nasm.us/"><img src="./nasm.png" alt="NASM logo" height="65"></a>
+
+**[NASM](https://www.nasm.us/)** — Netwide Assembler for x86 and x86-64 / x86 与 x86-64 汇编器（外部项目 / External project）
