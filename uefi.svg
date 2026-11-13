@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<rect width="256" height="256" rx="46" fill="#173b68"/>
+<path d="M66 67h124v34H101v49c0 24 15 39 42 39s42-15 42-39v-32h-34v31c0 6-2 9-8 9s-8-3-8-9v-31h-34v32c0 44 31 73 76 73 43 0 76-29 76-73V67" fill="none" stroke="#fff" stroke-width="0"/>
+<text x="128" y="146" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" text-anchor="middle">UEFI</text>
+<path d="M57 177h142" stroke="#79c5ff" stroke-width="7" stroke-linecap="round"/>
+</svg>
