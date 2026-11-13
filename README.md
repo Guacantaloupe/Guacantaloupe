@@ -19,6 +19,18 @@ An OpenGL compute-shader-based chess Perft program that counts legal move sequen
 
 使用 OpenGL 计算着色器，在 GPU 上统计国际象棋合法走法序列的 Perft 程序。它不是完整的国际象棋 AI。开发过程中，我报告了 NVIDIA GLSL 编译器错误 **6630275**，NVIDIA 已确认并修复。
 
+### [Reviewcentrifuge](https://github.com/Guacantaloupe/Reviewcentrifuge) <img src="https://img.shields.io/badge/-%20-FF218C?style=flat-square" height="12" alt="" />
+
+Selected core code from a closed-source project, shared for architecture and code-quality review. This repository is not the complete project and cannot be built on its own.
+
+一个闭源项目的部分核心代码，用于架构和代码质量评审。仓库不是完整项目，无法直接构建。
+
+### [ReviewUefiVmxAppPkg](https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg) <img src="https://img.shields.io/badge/-%20-21B1FF?style=flat-square" height="12" alt="" />
+
+Selected C source code from a UEFI and Intel VMX project for code review, covering VMX initialization, memory mapping, nested virtualization, and Windows boot loading. This repository is incomplete and cannot be built on its own.
+
+用于代码评审的 UEFI 和 Intel VMX 项目部分 C 源码，涉及 VMX 初始化、内存映射、嵌套虚拟化和 Windows 启动加载。仓库不是完整项目，无法直接构建。
+
 ### [paper](https://github.com/Guacantaloupe/paper) <img src="https://img.shields.io/badge/-%20-FFD800?style=flat-square" height="12" alt="" />
 
 A Windows executable static-analysis tool with disassembly, function analysis, control-flow graphs, and cross-references. It also provides MCP tools for AI clients.
@@ -36,18 +48,6 @@ A Dear ImGui-based overlay project with graphics API hooking code for DirectX 11
 An experimental Windows debugger based on vectored exception handling (VEH), with breakpoints, memory inspection, an ImGui interface, and MCP tools.
 
 基于向量化异常处理（VEH）的实验性 Windows 调试器，支持断点、内存查看、ImGui 界面和 MCP 工具。
-
-### [Reviewcentrifuge](https://github.com/Guacantaloupe/Reviewcentrifuge) <img src="https://img.shields.io/badge/-%20-FF218C?style=flat-square" height="12" alt="" />
-
-Selected core code from a closed-source project, shared for architecture and code-quality review. This repository is not the complete project and cannot be built on its own.
-
-一个闭源项目的部分核心代码，用于架构和代码质量评审。仓库不是完整项目，无法直接构建。
-
-### [ReviewUefiVmxAppPkg](https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg) <img src="https://img.shields.io/badge/-%20-21B1FF?style=flat-square" height="12" alt="" />
-
-Selected C source code from a UEFI and Intel VMX project for code review, covering VMX initialization, memory mapping, nested virtualization, and Windows boot loading. This repository is incomplete and cannot be built on its own.
-
-用于代码评审的 UEFI 和 Intel VMX 项目部分 C 源码，涉及 VMX 初始化、内存映射、嵌套虚拟化和 Windows 启动加载。仓库不是完整项目，无法直接构建。
 
 ### Related technologies / 相关技术
 
