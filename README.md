@@ -45,5 +45,3 @@ Selected C source code from a UEFI and Intel VMX project for code review, coveri
 
 <a href="https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg"><img src="./uefi.svg" alt="UEFI logo" height="65"></a>
 <a href="https://www.nasm.us/"><img src="./nasm.png" alt="NASM logo" height="65"></a>
-
-**[NASM](https://www.nasm.us/)** — Netwide Assembler for x86 and x86-64 / x86 与 x86-64 汇编器（外部项目 / External project）
