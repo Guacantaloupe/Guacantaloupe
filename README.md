@@ -21,9 +21,9 @@ An OpenGL compute-shader-based chess Perft program that counts legal move sequen
 
 ### [Reviewcentrifuge](https://github.com/Guacantaloupe/Reviewcentrifuge) <img src="https://img.shields.io/badge/-%20-FF218C?style=flat-square" height="12" alt="" />
 
-Selected core code from a closed-source project, shared for architecture and code-quality review. This repository is not the complete project and cannot be built on its own.
+Selected core code from a closed-source reverse-engineering project, shared for architecture and code-quality review. The project includes SSA, MemorySSA, and symbolic execution for program analysis, with opaque-predicate analysis as a related application. This repository is not the complete project and cannot be built on its own.
 
-一个闭源项目的部分核心代码，用于架构和代码质量评审。仓库不是完整项目，无法直接构建。
+一个闭源逆向工程项目的部分核心代码，用于架构和代码质量评审。项目包含 SSA、MemorySSA 和符号执行，用于程序分析；不透明谓词分析是相关应用方向。仓库不是完整项目，无法直接构建。
 
 ### [ReviewUefiVmxAppPkg](https://github.com/Guacantaloupe/ReviewUefiVmxAppPkg) <img src="https://img.shields.io/badge/-%20-21B1FF?style=flat-square" height="12" alt="" />
 
