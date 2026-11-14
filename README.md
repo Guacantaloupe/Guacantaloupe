@@ -4,6 +4,8 @@
 
 <img src="https://img.shields.io/badge/Systems-FF218C?style=flat-square&labelColor=17151F" alt="Systems" /> <img src="https://img.shields.io/badge/Reverse%20Engineering-FFD800?style=flat-square&labelColor=17151F" alt="Reverse Engineering" /> <img src="https://img.shields.io/badge/Graphics-21B1FF?style=flat-square&labelColor=17151F" alt="Graphics" /> <img src="https://img.shields.io/badge/Machine%20Learning-9C59D1?style=flat-square&labelColor=17151F" alt="Machine Learning" />
 
+<p><strong>Program Analysis · Decompilation · Reverse Engineering</strong></p>
+
 </div>
 
 I work on low-level systems, reverse engineering, graphics, and machine learning.  
